@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+ *{
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+.wpp-link{
+    position: fixed;
+    font-size: 50px;
+    color: green;
+    bottom: 40px;
+    right: 40px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white
+}
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: 0;
+    margin-top: 10px;
+    background-color: #df2731c2;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 0 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+    
+}
+header{
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url("imagem/header-london.jpg");
+}
+.header-ct{
+max-width: 400px;
+margin:150px auto ;
+text-align: center;
+}
